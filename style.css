@@ -81,7 +81,6 @@ h1 {
 
 #ban1 {
     position: relative;
-    min-height: 10px;
     background: url('img/banniere1.png');
     background-position: right;
     background-attachment: fixed;
