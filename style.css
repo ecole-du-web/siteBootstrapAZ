@@ -16,13 +16,11 @@ header {
     font-size: 70px;
     margin: 0;
     color: #2f2d2d;
-    border-radius: 5px;
     line-height: 0.5;
 }
 
 h1 {
     font-size: 150px;
-    border-radius: 5px;
     color: #2f2d2d;
     font-family: 'kaushan script';
     font-weight: 700;
