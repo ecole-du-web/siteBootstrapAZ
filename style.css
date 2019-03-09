@@ -77,9 +77,9 @@ h1 {
     padding-bottom: 100px;
 }
 
-/* Start premiere banniere */
+/* ban1 premiere banniere */
 
-#start {
+#ban1 {
     position: relative;
     min-height: 10px;
     background: url('img/banniere1.png');
