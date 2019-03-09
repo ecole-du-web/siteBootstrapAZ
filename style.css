@@ -1,0 +1,345 @@
+/* Header */
+
+header {
+    background: url("img/bgphotshop.png");
+    background-size: cover;
+   background-position: center;
+    height: 95vh;
+}
+
+ .text-intro {
+    padding-top: 300px;
+    padding-bottom: 200px;
+}
+
+.preTxt {
+    font-size: 70px;
+    margin: 0;
+    color: #2f2d2d;
+    border-radius: 5px;
+    line-height: 0.5;
+}
+
+h1 {
+    font-size: 150px;
+    border-radius: 5px;
+    color: #2f2d2d;
+    font-family: 'kaushan script';
+    font-weight: 700;
+} 
+
+
+
+
+/* Navbar */
+/* effet js*/
+#main-nav {
+  transition: all 1s ease;
+}
+.navbar-brand {
+  font-size: 45px!important;
+  font-family: 'Kaushan Script'!important;
+  transition: all 0.4s ease;
+}
+.navbar a {
+  color: #fff!important;
+    font-family: 'lato';
+    font-size: 22px;
+    font-weight: 700;
+    transition: all 0.4s ease;
+}
+
+
+.navbar.opaque .navbar-brand {
+  font-size: 27px!important;
+  /* transition pour le retour */
+  transition: all 0.4s ease;
+}
+.navbar.opaque a{
+  font-size: 18px;
+}
+
+
+
+
+
+/* A Propos */
+
+#aPropos {
+    margin-top: 75px;
+    padding-bottom: 75px;
+    border-bottom: 1px dashed #a9d5f0;
+  
+}
+
+/* Trois Icones */
+
+#icones {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* Start premiere banniere */
+
+#start {
+    position: relative;
+    min-height: 10px;
+    background: url('img/banniere1.png');
+    background-position: right;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* pour centrer le bouton et les textes */
+    text-align: center;
+    
+  }
+  
+/* Photos */
+#galerie {
+  padding-bottom: 100px;
+}
+.h2Photos {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: 'Kaushan Script';
+  font-size: 70px;
+}
+#galerie .container p {
+  padding-bottom: 40px;
+}
+  
+/* seconde banniere */
+
+#ban2 {
+    position: relative;
+    min-height: 300px;
+    background: url('img/Banniere2.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* pour tout centrer dont le btn ;) */
+    text-align: center;
+
+    
+  }
+
+  #carouselContent {
+    margin-top: 70px;
+    font-size: 35px;
+    color: #000;
+    font-weight: 400;
+  }
+  
+
+
+  /*  Cartes */
+
+.offreH {
+
+  font-size: 70px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  font-family: 'Kaushan Script';
+}
+
+  #cartes {
+    padding: 50px 0 100px 0;
+  }
+
+  
+  .threeCards {
+    width: 300px;
+    height: 520px;
+    margin: 30px auto;
+    position: relative;
+    transition:  0.2s ease-in;
+    box-shadow:0px 10px 30px black;
+  }
+  
+  .threeCards:hover {
+    transform: scale(1.1);
+  }
+  
+  .header {
+    height: 200px;
+    width: 300px;
+    position: relative;
+    background: rgba(216, 216, 216, 0.5);
+  }
+  
+  .header h2 {
+      margin: 0;
+      position: relative;
+      top: 130px;
+      text-align: center;
+      font-family: 'Lato';
+      font-size: 15px;
+  }
+  #spanPrix {
+    font-size: 40px;
+  }
+  /* amteur pro etc titre des cartes*/
+  .price {
+  
+    height: 120px;
+    width: 300px;
+    background: rgba(2, 2, 2, 0.5);
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    position: absolute;
+    top: 0;
+  }
+  
+  .price h2 {
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-family: 'Kaushan Script';
+  font-size: 30px;
+  position: relative;
+  top: 30px;
+  }
+  
+  
+  
+  
+  .details {
+    background: white;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-family: 'Lato';
+    transition: all 0.2s ease-in;
+  }
+  .details:hover {
+   background: rgba(181, 208, 230,0.1);
+  }
+  
+  
+  #btn {
+    background: white;
+    height: 80px;
+    
+  }
+  
+  #btn a {
+    text-decoration: none;
+    font-family: 'lato';
+    height: 50px;
+    width: 120px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    top: 10px;
+    border-radius: 30px;
+    border:1px solid #22A7F0;
+    transition: all 0.2s ease-in;
+  }
+  
+  
+  #btn a:hover   {
+    background: rgba(6, 136, 206, 0.8);
+    color: white;
+  }
+  
+  
+/* Compétences */
+
+#progress {
+  border-top: 1px dashed black;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+
+/* Clients */
+
+#clients{
+  border-top: 1px dashed black;
+  border-bottom: 1px solid black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+/* Média Queries */
+
+
+@media screen and (max-width: 800px) {
+/* Header */
+
+header {
+
+  height: 75vh;
+}
+
+.text-intro {
+  padding-top: 300px;
+  padding-bottom: 200px;
+}
+
+.preTxt {
+  font-size: 40px;
+
+}
+
+h1 {
+  font-size: 81px;
+ 
+
+} 
+
+
+
+}
+/* Barre de progrés mode petit*/
+
+@media screen and (max-width: 762px) {
+  #progress {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+  
+  }
+
+  .competences {
+    padding-top: 50px;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  /* Header */
+  
+  header {
+  
+    height: 55vh;
+  }
+  
+  .text-intro {
+    padding-top: 200px;
+
+  }
+  .text-intro a {
+    transform: scale(0.8);
+  }
+  .navbar-brand {
+    font-size: 35px!important;
+
+  }
+  .preTxt {
+    font-size: 30px;
+  
+  }
+  
+  h1 {
+    font-size: 51px;
+
+  
+  } 
+  
+  
+  
+  }
+
+
